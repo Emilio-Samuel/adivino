@@ -65,4 +65,12 @@ print(X)
 print(y)
 clf = RandomForestClassifier(n_estimators=100, max_depth=2, random_state=0)
 
-clf.fit(X[:np.floor(len(y)/2).astype(np.int64),:], y[:np.floor(len(y)/2).astype(np.int64)])
+clf.fit(X[:np.floor(len(y)*0.9).astype(np.int64),:], y[:np.floor(len(y)*0.9).astype(np.int64)])
+
+a = clf.predict(X[np.floor(len(y)*0.9).astype(np.int64):,:])
+aux = a==y[np.floor(len(y)*0.9).astype(np.int64):]
+aciertos = np.sum(aux)
+tasa_aciertos = aciertos*1./np.floor(len(y)*0.9).astype(np.int64)
+print(aciertos)
+print(tasa_aciertos)
+

@@ -16,8 +16,8 @@ for file in listdir("sin_procesar"):
 	image = img.imread(join("sin_procesar",file))
 	num_atribs = len(image[0])*len(image)
 	break
-print(num_atribs)
-print(len(listdir("sin_procesar")))
+print("Atributos:",num_atribs)
+print("Ejemplos:",len(listdir("sin_procesar")))
 
 dataset = np.zeros((len(listdir("sin_procesar")),num_atribs+1))
 
@@ -61,9 +61,18 @@ for file in listdir("sin_procesar"):
 
 X = dataset[:,:-1]
 y = dataset[:,-1]
-print(X)
-print(y)
+unique, counts = np.unique(y, return_counts=True)
+ocurrencias=dict(zip(unique, counts))
+
+print(ocurrencias)
+
+
+
+#print(X)
+#print(y)
+
 clf = RandomForestClassifier(n_estimators=100, max_depth=2, random_state=0)
+clf.n_classes_=[0,1,2,3,4,5,6,7,8,9]
 
 clf.fit(X[:np.floor(len(y)*0.9).astype(np.int64),:], y[:np.floor(len(y)*0.9).astype(np.int64)])
 

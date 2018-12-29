@@ -1,6 +1,7 @@
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import make_classification
 import matplotlib.image as img
+import matplotlib.pyplot as plt
 import scipy.misc
 from os import listdir
 from skimage import filters
@@ -25,7 +26,7 @@ i = 0
 for file in listdir("sin_procesar"):
 	image = img.imread(join("sin_procesar",file))
 	val = filters.threshold_otsu(image)
-	image =	image>val
+	image =	(image>val)*255
 	image = ndimage.median_filter(image, 3)
 	scipy.misc.imsave(join("procesado",file), image)
 	image=np.reshape(image,(1,len(image[0])*len(image))).astype(int)

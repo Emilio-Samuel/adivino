@@ -22,7 +22,7 @@ def eliminar_columnas_filas(image,umbral):
 	return image[filas<umbral,:]
 imagenes = listdir("sin_procesar")
 n_samples = len(imagenes)
-tam = (9,4)
+tam = (100,50)
 X = np.zeros((n_samples,tam[0]*tam[1]))
 Y = np.zeros(n_samples)
 images = np.zeros((n_samples,tam[0],tam[1]))
@@ -85,8 +85,8 @@ print("Classification report for classifier %s:\n%s\n"
       % (clf, metrics.classification_report(expected, predicted)))
 print("Confusion matrix:\n%s" % metrics.confusion_matrix(expected, predicted))
 images_and_predictions = list(zip(images[n_samples // 2:], predicted))
-for index, (image, prediction) in enumerate(images_and_predictions[:25]):
-    plt.subplot(5, 5, index+1)
+for index, (image, prediction) in enumerate(images_and_predictions[:36]):
+    plt.subplot(6, 6, index+1)
     plt.axis('off')
     plt.imshow(image, cmap=plt.cm.gray_r, interpolation='nearest')
     #print(65+prediction)

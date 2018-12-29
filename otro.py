@@ -74,9 +74,7 @@ for i in range(n_samples):
 #print(X)
 #print(y)
 
-clf = RandomForestClassifier(n_estimators=500, max_depth=10, random_state=0)
-clf.n_classes_=[0,1,2,3,4,5,6,7,8,9]
-#clf.n_classes_=[0,1,2,3,4,5,6,7,8,9]
+clf = svm.SVC(gamma=0.001)
 
 
 clf.fit(X[:n_samples //2], Y[:n_samples // 2])

@@ -100,6 +100,66 @@ Para todos ellos destinaremos la mitad de los datos para train y la otra mitad p
 
 \subsection{Random Forest}
 
+Con random forest hemos encontrado que funciona muy bien incluso reduciendo mucho la dimension de los datos encontrando que la mejor tasa de acierto comparandola con el tiempo es reducir las imagenes a cuadrados $9\times4$ con 500 arboles de profundidad máxima 10 consiguiendo los siguientes resultados:
+\begin{enumerate}
+\item \textbf{Tasa de acierto}: 92.57$\%$
+\item \textbf{Matriz de confusion}:
+	
+\[
+M=
+  \begin{bmatrix}
+    69 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+    2 & 48 & 0 & 5 & 2 & 3 & 0 & 0 & 4 & 0 \\
+    0 & 0 & 73 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+    0 & 3 & 0 & 59 & 0 & 2 & 0 & 0 & 0 & 0 \\
+    0 & 1 & 1 & 0 & 54 & 1 & 1 & 0 & 1 & 0 \\
+    0 & 0 & 0 & 0 & 1 & 61 & 0 & 0 & 0 & 0 \\
+    0 & 1 & 0 & 0 & 0 & 1 & 66 & 0 & 0 & 0 \\
+    2 & 2 & 0 & 0 & 0 & 0 & 0 & 67 & 1 & 0 \\
+    1 & 0 & 1 & 1 & 0 & 0 & 1 & 0 & 58 & 6 \\
+    0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 2 & 56 \\
+  \end{bmatrix}
+\]
+
+\item \textbf{Ejemplos de clasificacion}
+
+\begin{figure}[htbp]
+    \includegraphics[width=0.8\textwidth,natwidth=206,natheight=150]{./RandomForest_9_4.png}
+    \caption{Ejemplos de clasificacion con random forest}
+\end{figure}
+\end{enumerate}
+
+\subsection{Clasificador SVC}
+
+Es el algoritmo que más tarda de los 3 con los que hemos experimentado, pero a su vez es el que consigue la mejor tasa de acierto. Para el ánalisis de resultados de este clasificador con estos datos decidimos reducir las imagenes a $100\times50$ con una gamma de 0.001 obteniendo los siguientes resultados:
+\begin{enumerate}
+\item \textbf{Tasa de acierto}: 96.21$\%$
+\item \textbf{Matriz de confusion}:
+	
+\[
+M=
+  \begin{bmatrix}
+    69 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+    1 & 57 & 0 & 3 & 0 & 3 & 0 & 0 & 0 & 0 \\
+    0 & 0 & 74 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+    1 & 1 & 0 & 62 & 0 & 0 & 0 & 0 & 0 & 0 \\
+    0 & 1 & 0 & 0 & 57 & 1 & 1 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 & 0 & 62 & 0 & 0 & 0 & 0 \\
+    0 & 0 & 1 & 0 & 0 & 1 & 66 & 0 & 0 & 0 \\
+    1 & 0 & 0 & 1 & 0 & 0 & 0 & 70 & 0 & 0 \\
+    0 & 0 & 0 & 0 & 2 & 0 & 0 & 0 & 61 & 5 \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 57 \\
+  \end{bmatrix}
+\]
+
+\item \textbf{Ejemplos de clasificacion}
+
+\begin{figure}[htbp]
+    \includegraphics[width=0.8\textwidth,natwidth=206,natheight=150]{./SVC100_50.png}
+    \caption{Ejemplos de clasificacion con random forest}
+\end{figure}
+\end{enumerate}
+
 
 
 \end{document}

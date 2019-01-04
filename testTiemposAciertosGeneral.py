@@ -78,10 +78,10 @@ def svc_classification(X,Y,n_samples):
 
 	clf = svm.SVC(gamma=0.001)
 
-	start_time = time.time()
+	
 
 	clf.fit(X[:n_samples //2], Y[:n_samples // 2])
-
+	start_time = time.time()
 	predicted = clf.predict(X[n_samples//2:])
 	elapsed_time = time.time() - start_time
 	
@@ -93,10 +93,10 @@ def random_forest(X,Y,n_samples):
 	clf = RandomForestClassifier(n_estimators=500, max_depth=10, random_state=0)
 	clf.n_classes_=[0,1,2,3,4,5,6,7,8,9]
 
-	start_time = time.time()
+	
 
 	clf.fit(X[:n_samples //2], Y[:n_samples // 2])
-
+	start_time = time.time()
 	predicted = clf.predict(X[n_samples//2:])
 	elapsed_time = time.time() - start_time
 	
@@ -106,10 +106,10 @@ def random_forest(X,Y,n_samples):
 def KNN_test(X,Y,n_samples):
 	clf = KNeighborsClassifier(n_neighbors=10)
 
-	start_time = time.time()
+	
 
 	clf.fit(X[:n_samples //2], Y[:n_samples // 2])
-
+	start_time = time.time()
 	predicted = clf.predict(X[n_samples//2:])
 	elapsed_time = time.time() - start_time
 	
@@ -117,8 +117,8 @@ def KNN_test(X,Y,n_samples):
 
 	return [elapsed_time,sum(expected==predicted)*1./len(expected)]
 n = 50
-x = np.linspace(4,400,n).astype(int)
-y = np.linspace(3,300,n).astype(int)
+x = np.linspace(4,200,n).astype(int)
+y = np.linspace(3,100,n).astype(int)
 z = zip(x,y)
 timesRF = np.zeros(n)
 rateRF = np.zeros(n)
@@ -149,5 +149,5 @@ plt.plot(timesRF,rateRF,label="random forest")
 plt.plot(timesSVC,rateSVC,label="SVC")
 plt.plot(timesKNN,rateKNN,label="KNN")
 plt.legend(loc='best')
-np.savetxt('dataRFKNNSVC',np.stack((timesRF,rateRF,timesSVC,rateSVC,timesKNN,rateKNN)))
+np.savetxt('dataRFKNNSVC_Clasificar',np.stack((timesRF,rateRF,timesSVC,rateSVC,timesKNN,rateKNN)))
 plt.show()

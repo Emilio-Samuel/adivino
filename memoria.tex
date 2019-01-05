@@ -129,7 +129,7 @@ M=
 \item \textbf{Ejemplos de clasificacion}
 
 \begin{figure}[htbp]
-    \includegraphics[scale=0.5]{./RandomForest_9_4.png}
+    \includegraphics[width=\textwidth]{./RandomForest_9_4.png}
     \caption{Ejemplos de clasificacion con random forest}
 \end{figure}
 \end{enumerate}
@@ -160,7 +160,7 @@ M=
 \item \textbf{Ejemplos de clasificacion}
 
 \begin{figure}[htbp]
-    \includegraphics[scale=0.5]{./SVC100_50.png}
+    \includegraphics[width=\textwidth]{./SVC100_50.png}
     \caption{Ejemplos de clasificacion con SVC}
 \end{figure}
 \end{enumerate}
@@ -193,7 +193,7 @@ M=
 
 \begin{figure}[htbp]
 \centering
-    \includegraphics[scale=0.5]{./KNN_Ejemplos.png}
+    \includegraphics[width=\textwidth]{./KNN_Ejemplos.png}
     \caption{Ejemplos de clasificacion con KNN}
 \end{figure}
 \end{enumerate}
@@ -203,7 +203,7 @@ M=
 Hemos decidido ir variando el número de parámetros que consideramos para ver como esto afecta tanto al tiempo de clasificacion como a la tasa de aciertos:
 \begin{figure}[htbp]
     \centering
-    \includegraphics[scale=0.05]{./CompararAciertos.png}
+    \includegraphics[width=\textwidth]{./CompararAciertos.png}
     \caption{Comparar las tasas de acierto con los 3 clasificadores}
 \end{figure}
 
@@ -211,7 +211,7 @@ En esta figura muestra en el eje de las x la dimensión de los datos que usamos 
 Como podemos ver a medida que aumentamos la cantidad de datos a usar SVC aumenta su tasa de acierto alcanzando un máximo con imágenes de tamaño $100\times50$, pero al contrario que con KNN y random forest, vemos que cuando empezamos a interpolar y a hacer las imágenes más grandes que el tamaño original su tasa baja.
 Miremos aumentando más aún el tamaño de las imágenes:
 \begin{figure}[htbp]
-    \includegraphics[scale=0.5]{./AciertosFinal.png}
+    \includegraphics[width=\textwidth]{./AciertosFinal.png}
     \caption{Comparar las tasas de acierto con los 3 clasificadores}
 \end{figure}
 Como podemos ver su rendimiento baja notablemente, por eso concluimos en que SVC es menos robusto que KNN y Random Forest
@@ -222,7 +222,7 @@ En este apartado compararemos los tiempos de construir el clasificador y clasifi
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[scale=0.5]{./CompararTiempos.png}
+    \includegraphics[width=\textwidth]{./CompararTiempos.png}
     \caption{Comparar los tiempos de ejecucion con los 3 clasificadores}
 \end{figure}
 
@@ -231,10 +231,18 @@ Como podemos ver en la figura 10 la diferencia entre los tiempos de ejecución e
 A continuación compararemos el tiempo que tardan con su tasa de acierto, con el objetivo de poder comparar para un limite de tiempo dado cual es mejor:
 \begin{figure}[htbp]
     \centering
-    \includegraphics[scale=0.5]{./CompararAciertosvsTiempos.png}
+    \includegraphics[width=\textwidth]{./CompararAciertosvsTiempos.png}
     \caption{Comparar las tasas de acierto vs su tiempo de ejecucion con los 3 clasificadores}
 \end{figure}
 
 Finalmente compararemos solamente el tiempo de clasificación sin contar el tiempo de construir el clasificador.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{./TiemposSoloClasificacion.png}
+    \caption{Comparar los tiempos de clasificacion con los 3 clasificadores}
+\end{figure}
+
+Como podemos ver, si disponemos del tiempo para poder generar el clasificador SVC, si vamos a clasificar varias veces probablemente sea el que más merezca la pena ya que su tiempo de clasificación es menor que el de KNN pero su tasa de acierto es enorme.
 
 \end{document}

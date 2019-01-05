@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  5 JAN 2019 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  5 JAN 2019 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -615,58 +615,55 @@ File: ./A_Variando_Tam.png Graphic file (type png)
 Package pdftex.def Info: ./A_Variando_Tam.png  used on input line 89.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
  [2 <./procesado/l00000_A.png (PNG copy)> <./Arecortada.png>]
-<./RandomForest_9_4.png, id=21, 462.528pt x 346.896pt>
+<./RandomForest_9_4.png, id=21, 1322.9425pt x 790.955pt>
 File: ./RandomForest_9_4.png Graphic file (type png)
 <use ./RandomForest_9_4.png>
 Package pdftex.def Info: ./RandomForest_9_4.png  used on input line 132.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+(pdftex.def)             Requested size: 345.0pt x 206.25897pt.
 
 [3 <./A_Variando_Tam.png>]
-<./SVC100_50.png, id=28, 1339.1631pt x 690.1785pt>
+<./SVC100_50.png, id=28, 1330.9725pt x 805.0075pt>
 File: ./SVC100_50.png Graphic file (type png)
 <use ./SVC100_50.png>
 Package pdftex.def Info: ./SVC100_50.png  used on input line 163.
-(pdftex.def)             Requested size: 669.57993pt x 345.08841pt.
-
-Overfull \hbox (324.57993pt too wide) in paragraph at lines 163--164
-[][] 
- []
-
-<./KNN_Ejemplos.png, id=29, 1339.1631pt x 690.1785pt>
+(pdftex.def)             Requested size: 345.0pt x 208.65828pt.
+<./KNN_Ejemplos.png, id=29, 1322.9425pt x 790.955pt>
 File: ./KNN_Ejemplos.png Graphic file (type png)
 <use ./KNN_Ejemplos.png>
 Package pdftex.def Info: ./KNN_Ejemplos.png  used on input line 196.
-(pdftex.def)             Requested size: 669.57993pt x 345.08841pt.
-
-Overfull \hbox (324.57993pt too wide) in paragraph at lines 196--197
- [][] 
- []
-
-<./CompararAciertos.png, id=30, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 345.0pt x 206.25897pt.
+ [4 <./RandomForest_9_4.png>]
+<./CompararAciertos.png, id=34, 462.528pt x 346.896pt>
 File: ./CompararAciertos.png Graphic file (type png)
 <use ./CompararAciertos.png>
 Package pdftex.def Info: ./CompararAciertos.png  used on input line 206.
-(pdftex.def)             Requested size: 23.12775pt x 17.34581pt.
-[4 <./RandomForest_9_4.png>] [5 <./SVC100_50.png>] [6 <./KNN_Ejemplos.png>]
-<./AciertosFinal.png, id=43, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+<./AciertosFinal.png, id=35, 462.528pt x 346.896pt>
 File: ./AciertosFinal.png Graphic file (type png)
 <use ./AciertosFinal.png>
 Package pdftex.def Info: ./AciertosFinal.png  used on input line 214.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<./CompararTiempos.png, id=44, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+<./CompararTiempos.png, id=36, 462.528pt x 346.896pt>
 File: ./CompararTiempos.png Graphic file (type png)
 <use ./CompararTiempos.png>
 Package pdftex.def Info: ./CompararTiempos.png  used on input line 225.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<./CompararAciertosvsTiempos.png, id=45, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+<./CompararAciertosvsTiempos.png, id=37, 462.528pt x 346.896pt>
 File: ./CompararAciertosvsTiempos.png Graphic file (type png)
 <use ./CompararAciertosvsTiempos.png>
 Package pdftex.def Info: ./CompararAciertosvsTiempos.png  used on input line 23
 4.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-
-[7 <./CompararAciertos.png> <./AciertosFinal.png>] [8 <./CompararTiempos.png> <
-./CompararAciertosvsTiempos.png>] (./memoria.aux
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+<./TiemposSoloClasificacion.png, id=38, 462.528pt x 346.896pt>
+File: ./TiemposSoloClasificacion.png Graphic file (type png)
+<use ./TiemposSoloClasificacion.png>
+Package pdftex.def Info: ./TiemposSoloClasificacion.png  used on input line 242
+.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+ [5 <./SVC100_50.png>]
+[6 <./KNN_Ejemplos.png> <./CompararAciertos.png>] [7 <./AciertosFinal.png> <./C
+ompararTiempos.png>] [8 <./CompararAciertosvsTiempos.png> <./TiemposSoloClasifi
+cacion.png>] (./memoria.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) )
@@ -675,13 +672,13 @@ LaTeX Info: Redefining \% on input line 7.
 ### semi simple group (level 1) entered at line 8 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3776 strings out of 492982
- 48696 string characters out of 6134895
- 131584 words of memory out of 5000000
- 7258 multiletter control sequences out of 15000+600000
+ 3781 strings out of 492982
+ 48863 string characters out of 6134895
+ 130584 words of memory out of 5000000
+ 7262 multiletter control sequences out of 15000+600000
  11503 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,30p,346b,2721s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,30p,346b,2727s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -690,10 +687,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on memoria.pdf (8 pages, 369751 bytes).
+Output written on memoria.pdf (8 pages, 361180 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

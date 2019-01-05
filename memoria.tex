@@ -8,6 +8,8 @@
 \spacing{0.75}
 \usepackage[spanish, activeacute]{babel} %Definir idioma español
 \usepackage[utf8]{inputenc} 
+\usepackage{caption}
+\usepackage{subcaption}
 
 \voffset 0 cm \hoffset 0 cm \addtolength{\textwidth}{0cm}
 \addtolength{\textheight}{0cm}\addtolength{\leftmargin}{0cm}
@@ -74,7 +76,7 @@ Esto lo realizaremos mediante la selección de un umbral, con el cual considerar
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[scale=0.5]{./Arecortada.png}
+    \includegraphics[scale=0.3]{./Arecortada.png}
     \caption{Ejemplo de una A recortada}
 \end{figure}
 
@@ -86,7 +88,7 @@ A continuacion mostraremos distintos valores de los tamaños de las imágenes qu
 
 \begin{figure}[htbp]
    \centering
-    \includegraphics[scale=0.5]{./A_Variando_Tam.png}
+    \includegraphics[scale=0.3]{./A_Variando_Tam.png}
     \caption{Varios tamaños de una A que usaremos}
 \end{figure}
 
@@ -109,7 +111,39 @@ Con random forest hemos encontrado que funciona muy bien incluso reduciendo much
 \begin{enumerate}
 \item \textbf{Tasa de acierto}: 92.57$\%$
 \item \textbf{Matriz de confusion}:
-	
+
+
+
+\begin{figure}[htbp]
+\centering
+\begin{minipage}{.5\textwidth}
+    \begin{tabular}{|c|c|c|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+    \hline
+      \textbf{Clase} & \textbf{Precisión} & \textbf{Sensibilidad}\\
+      \hline
+      A & 0.93 & 0.99\\
+      \hline
+      B & 0.86 & 0.75\\
+      \hline
+      C & 0.97 & 0.99\\
+      \hline
+      D & 0.91 & 0.92\\
+      \hline
+      E & 0.95 & 0.92\\
+      \hline
+      F & 0.88 & 0.98\\
+      \hline
+      G & 0.96 & 0.97\\
+      \hline
+      H & 1    & 0.93\\
+      \hline
+      I & 0.88 & 0.87\\
+      \hline
+      J & 0.90 & 0.93\\
+      \hline
+    \end{tabular}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
 \[
 M=
   \begin{bmatrix}
@@ -125,11 +159,14 @@ M=
     0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 2 & 56 \\
   \end{bmatrix}
 \]
+\end{minipage}
+\end{figure}
 
 \item \textbf{Ejemplos de clasificacion}
 
-\begin{figure}[htbp]
-    \includegraphics[width=\textwidth]{./RandomForest_9_4.png}
+\begin{figure}[h!]
+\centering
+    \includegraphics[scale=0.15]{./RandomForest_9_4.png}
     \caption{Ejemplos de clasificacion con random forest}
 \end{figure}
 \end{enumerate}
@@ -141,8 +178,37 @@ Es el algoritmo que más tarda de los 3 con los que hemos experimentado, pero a 
 \item \textbf{Tasa de acierto}: 96.21$\%$
 \item \textbf{Matriz de confusion}:
 	
+\begin{figure}[htbp]
+\centering
+\begin{minipage}{.5\textwidth}
+    \begin{tabular}{|c|c|c|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+    \hline
+      \textbf{Clase} & \textbf{Precisión} & \textbf{Sensibilidad}\\
+      \hline
+      A & 0.96 & 0.96\\
+      \hline
+      B & 0.92 & 0.89\\
+      \hline
+      C & 0.99 & 1\\
+      \hline
+      D & 0.94 & 0.97\\
+      \hline
+      E & 0.97 & 0.97\\
+      \hline
+      F & 0.93 & 1\\
+      \hline
+      G & 1    & 0.97\\
+      \hline
+      H & 1    & 0.97\\
+      \hline
+      I & 0.97 & 0.90\\
+      \hline
+      J & 0.92 & 0.97\\
+      \hline
+    \end{tabular}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
 \[
-M=
   \begin{bmatrix}
     69 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
     1 & 57 & 0 & 3 & 0 & 3 & 0 & 0 & 0 & 0 \\
@@ -156,14 +222,18 @@ M=
     0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 57 \\
   \end{bmatrix}
 \]
+\end{minipage}
+\end{figure}
 
 \item \textbf{Ejemplos de clasificacion}
 
 \begin{figure}[htbp]
-    \includegraphics[width=\textwidth]{./SVC100_50.png}
+\centering
+    \includegraphics[scale=0.15]{./SVC100_50.png}
     \caption{Ejemplos de clasificacion con SVC}
 \end{figure}
 \end{enumerate}
+
 
 
 \subsection{Clasificador KNN}
@@ -171,8 +241,40 @@ M=
 Como podremos ver más adelante este es un clasificador con el que conseguimos unos resultados medios, no tarda tanto como SVC ni tiene una tasa de acierto tan grande con imágenes tan reducidas como random forest pero aún así funcionó nos pareció suficientemente bueno como para incluirlo en la memoria
 \begin{enumerate}
 \item \textbf{Tasa de acierto}: 94.39$\%$
+\newpage
 \item \textbf{Matriz de confusion}:
 	
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}{.5\textwidth}
+    \begin{tabular}{|c|c|c|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+    \hline
+      \textbf{Clase} & \textbf{Precisión} & \textbf{Sensibilidad}\\
+      \hline
+      A & 0.97 & 0.99\\
+      \hline
+      B & 0.95 & 0.83\\
+      \hline
+      C & 0.91 & 1.00\\
+      \hline
+      D & 0.97 & 0.95\\
+      \hline
+      E & 0.98 & 0.88\\
+      \hline
+      F & 0.91 & 1.00\\
+      \hline
+      G & 0.98 & 0.91\\
+      \hline
+      H & 1    & 0.99\\
+      \hline
+      I & 0.85 & 0.91\\
+      \hline
+      J & 0.93 & 0.97\\
+      \hline
+    \end{tabular}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
 \[
 M=
   \begin{bmatrix}
@@ -188,61 +290,88 @@ M=
     0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 & 57 \\
   \end{bmatrix}
 \]
+\end{minipage}
+\end{figure}
 
 \item \textbf{Ejemplos de clasificacion}
 
 \begin{figure}[htbp]
 \centering
-    \includegraphics[width=\textwidth]{./KNN_Ejemplos.png}
+    \includegraphics[scale=0.15]{./KNN_Ejemplos.png}
     \caption{Ejemplos de clasificacion con KNN}
 \end{figure}
 \end{enumerate}
 
-\subsection{Comparar los clasificadores por su tasa de acierto}
 
+
+\subsection{Comparar los clasificadores por su tasa de acierto}
 Hemos decidido ir variando el número de parámetros que consideramos para ver como esto afecta tanto al tiempo de clasificacion como a la tasa de aciertos:
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=\textwidth]{./CompararAciertos.png}
-    \caption{Comparar las tasas de acierto con los 3 clasificadores}
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.8\linewidth]{./CompararAciertos.png}
+  \captionof{figure}{Tiempos de ejecucion}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.8\linewidth]{./AciertosFinal.png}
+  \captionof{figure}{Tiempos de ejecucion}
+  \label{fig:test2}
+\end{minipage}
 \end{figure}
 
+\newpage
 En esta figura muestra en el eje de las x la dimensión de los datos que usamos para clasificar en escala logaritmica y en el eje y la tasa de acierto.
 Como podemos ver a medida que aumentamos la cantidad de datos a usar SVC aumenta su tasa de acierto alcanzando un máximo con imágenes de tamaño $100\times50$, pero al contrario que con KNN y random forest, vemos que cuando empezamos a interpolar y a hacer las imágenes más grandes que el tamaño original su tasa baja.
 Miremos aumentando más aún el tamaño de las imágenes:
-\begin{figure}[htbp]
-    \includegraphics[width=\textwidth]{./AciertosFinal.png}
-    \caption{Comparar las tasas de acierto con los 3 clasificadores}
-\end{figure}
+
+
+
+
+
+
+
+
 Como podemos ver su rendimiento baja notablemente, por eso concluimos en que SVC es menos robusto que KNN y Random Forest
 
 \subsection{Comparar los clasificadores por su tiempo de ejecución}
 
 En este apartado compararemos los tiempos de construir el clasificador y clasificar de KNN, SVC y Random Forest.
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=\textwidth]{./CompararTiempos.png}
-    \caption{Comparar los tiempos de ejecucion con los 3 clasificadores}
-\end{figure}
+
 
 Como podemos ver en la figura 10 la diferencia entre los tiempos de ejecución en el limite son bastante notables encontrando que SVC es el más lento seguido de KNN y Random Forest el más rápido.
 
 A continuación compararemos el tiempo que tardan con su tasa de acierto, con el objetivo de poder comparar para un limite de tiempo dado cual es mejor:
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=\textwidth]{./CompararAciertosvsTiempos.png}
-    \caption{Comparar las tasas de acierto vs su tiempo de ejecucion con los 3 clasificadores}
+
+
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{./CompararTiempos.png}
+  \captionof{figure}{Tiempos clasificación}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{./CompararAciertosvsTiempos.png}
+  \captionof{figure}{Tasa acierto vs tiempos}
+  \label{fig:test2}
+\end{minipage}
 \end{figure}
+
 
 Finalmente compararemos solamente el tiempo de clasificación sin contar el tiempo de construir el clasificador.
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=\textwidth]{./TiemposSoloClasificacion.png}
-    \caption{Comparar los tiempos de clasificacion con los 3 clasificadores}
-\end{figure}
+\subsection{Conclusiones}
+A la vista de los resultados obtenidos, dependiendo de nuestras necesidades, elegiremos distintos modelos. Si nuestra prioridad es la correcta clasificación de los datos y no tenemos
+una cantidad de tiempo limitada usaremos SVC, sin embargo, si necesitamos una rápida clasificación usaremos Random Forest. También es relevante dónde se aprecian los errores en la clasificación. Por ejemplo, los clasificadores suelen confundir las jotas con las ies.
 
-Como podemos ver, si disponemos del tiempo para poder generar el clasificador SVC, si vamos a clasificar varias veces probablemente sea el que más merezca la pena ya que su tiempo de clasificación es menor que el de KNN pero su tasa de acierto es enorme.
-
+\subsection{Referencias}
+Scikit-learn
 \end{document}

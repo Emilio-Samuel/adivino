@@ -92,7 +92,7 @@ for index, (image, prediction) in enumerate(images_and_predictions[:25]):
     plt.axis('off')
     plt.imshow(image, cmap=plt.cm.gray_r, interpolation='nearest')
     #print(65+prediction)
-    plt.title('Prediction: %c\nExpected: %c' % (chr(int(65+prediction)), chr(int(65+expected[index]))))
+    plt.title('P: %c E: %c' % (chr(int(65+prediction)), chr(int(65+expected[index]))))
 print("Tasa de acierto %f\n"%(np.sum(predicted==expected)*1./len(predicted)))
 plt.show()
 

@@ -39,7 +39,7 @@ Utilizaremos varios algoritmos de clasificaci\'on y los compararemos para encont
 
 
 \section{An\'alisis de los datos}
-En el dataset provisto, est\'an representadaslas 10 primeras letras del alfabeto(A-J), por tanto 10 clases las cuales hemos etiquetado en nuestra base de datos etiquetadas de 0 a 10 respectivamente.
+En el dataset provisto, est\'an representadas las 10 primeras letras del alfabeto(A-J), por tanto hay 10 clases posibles, las cuales hemos etiquetado en nuestra base de datos de 0 a 10 respectivamente.
 Las imagenes nos vienen en un tamaño de $206\times150$ en escala de grises.
 
 
@@ -51,7 +51,7 @@ Las imagenes nos vienen en un tamaño de $206\times150$ en escala de grises.
 
 
 
-Como podemos observar las imagenes contienen ruido, el cual podría dificultar la tarea de clasificación gravemente.Este problema lo hemos solucionado sometiendo a la imagen a diferentes tratamientos.
+Como podemos observar las imagenes contienen ruido (manchas en el papel,rugosidades...), el cual podría dificultar la tarea de clasificación gravemente.Este problema lo hemos solucionado sometiendo a la imagen a diferentes tratamientos.
 
 \subsection{Tratamientos}
 
@@ -66,7 +66,7 @@ Esto nos ha dado el siguiente resultado:
 A continuación explicaremos los tratamientos que le hemos aplicado a las imágenes para reducir la complejidad del problema
 
 \subsection{Atributos}
-Teniendo en cuenta que las imágenes son matrices $206\times150$ lo cual nos da un total de 30900 atributos, lo cual es una cantidad de atributos desorbitada, por ese motivo hemos decidido ver como afecta reducir la dimensión.
+Teniendo en cuenta que las imágenes son matrices $206\times150$ tenemos un total de 30900 atributos, lo cual es una cantidad desorbitada, por ese motivo hemos decidido ver como afecta reducir la dimensión.
 Las principales modificaciones que realizaremos a las imagenes para reducir su dimensionalidad son las siguientes:
 
 \paragraph{Eliminar filas y columnas poco importantes}
@@ -112,7 +112,7 @@ Con random forest hemos encontrado que funciona muy bien incluso reduciendo much
 \item \textbf{Tasa de acierto}: 92.57$\%$
 \item \textbf{Matriz de confusion}:
 
-
+Como podemos ver en la matriz y la tabla Random Forest tiene como clases con menor precisión y sensibilidad B,I y J, sin embargo, hay una particularidad en los ejemplos donde hay una J, siempre que nos equivocamos al clasificar una J la predecimos como una I lo cual es razonable debido a la similitud de su grafía
 
 \begin{figure}[htbp]
 \centering
@@ -177,7 +177,7 @@ Es el algoritmo que más tarda de los 3 con los que hemos experimentado, pero a 
 \begin{enumerate}
 \item \textbf{Tasa de acierto}: 96.21$\%$
 \item \textbf{Matriz de confusion}:
-	
+Como se aprecia en la tabla y la matriz las letras en las que este clasificador tiene más problemas en reconocer son la J y la F dado que son las dos clases con menor precision. Por otro lado SVC que clasifica cinco Js y dos Es como Is y una A tres Ds y tres Fs como Bs, siendo B e I las clases con menor sensibilidad.
 \begin{figure}[htbp]
 \centering
 \begin{minipage}{.5\textwidth}
@@ -187,7 +187,7 @@ Es el algoritmo que más tarda de los 3 con los que hemos experimentado, pero a 
       \hline
       A & 0.96 & 0.96\\
       \hline
-      B & 0.92 & 0.89\\
+      B & 0.95 & 0.89\\
       \hline
       C & 0.99 & 1\\
       \hline
@@ -244,7 +244,7 @@ Como podremos ver más adelante este es un clasificador con el que conseguimos u
 \newpage
 \item \textbf{Matriz de confusion}:
 	
-
+Como podemos ver en la matriz, KNN se equivoca clasificando letras como B esto se puede apreciar en la segunda fila de la matriz de confusión donde vemos que ha clasificado una A, dos Ds , tres Fs y y 5 Is como B. Por ello se muestra una baja sensibilidad en la clase B. También es relevante mencionar que donde tiene más problemas a la hora de clasificar es en las letras C, F e I como se puede ver en sus correspondientes columnas y en que son las 3 clases con la menor precisión.
 \begin{figure}[h!]
 \centering
 \begin{minipage}{.5\textwidth}
@@ -293,6 +293,8 @@ M=
 \end{minipage}
 \end{figure}
 
+
+
 \item \textbf{Ejemplos de clasificacion}
 
 \begin{figure}[htbp]
@@ -312,30 +314,22 @@ Hemos decidido ir variando el número de parámetros que consideramos para ver c
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=0.8\linewidth]{./CompararAciertos.png}
-  \captionof{figure}{Tiempos de ejecucion}
+  \captionof{figure}{Tasa de aciertos}
   \label{fig:test1}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=0.8\linewidth]{./AciertosFinal.png}
-  \captionof{figure}{Tiempos de ejecucion}
+  \captionof{figure}{Tasa de aciertos}
   \label{fig:test2}
 \end{minipage}
 \end{figure}
 
 \newpage
-En esta figura muestra en el eje de las x la dimensión de los datos que usamos para clasificar en escala logaritmica y en el eje y la tasa de acierto.
-Como podemos ver a medida que aumentamos la cantidad de datos a usar SVC aumenta su tasa de acierto alcanzando un máximo con imágenes de tamaño $100\times50$, pero al contrario que con KNN y random forest, vemos que cuando empezamos a interpolar y a hacer las imágenes más grandes que el tamaño original su tasa baja.
-Miremos aumentando más aún el tamaño de las imágenes:
-
-
-
-
-
-
-
-
-Como podemos ver su rendimiento baja notablemente, por eso concluimos en que SVC es menos robusto que KNN y Random Forest
+En estas figuras muestra en el eje de las x la dimensión de los datos que usamos para clasificar en escala logaritmica en base e y en el eje y la tasa de acierto.
+Como podemos ver a medida que aumentamos la cantidad de datos al usar SVC aumenta su tasa de acierto alcanzando un máximo con imágenes de tamaño $100\times50$, pero al contrario que con KNN y random forest, vemos que cuando empezamos a interpolar y a hacer las imágenes más grandes que el tamaño original su tasa baja.
+Miremos la figura 11 donde hemos aumentando más aún el tamaño de las imágenes:
+Como podemos ver su rendimiento baja notablemente, por eso concluimos en que SVC es menos robusto que KNN y Random Forest y por ello debemos tener cuidado a la hora de ver en qué set de datos lo usamos
 
 \subsection{Comparar los clasificadores por su tiempo de ejecución}
 
@@ -343,7 +337,7 @@ En este apartado compararemos los tiempos de construir el clasificador y clasifi
 
 
 
-Como podemos ver en la figura 10 la diferencia entre los tiempos de ejecución en el limite son bastante notables encontrando que SVC es el más lento seguido de KNN y Random Forest el más rápido.
+Como podemos ver en la figura 10 la diferencia entre los tiempos de ejecución en el limite son bastante notables encontrando que SVC es el más lento seguido de KNN y Random Forest el más rápido. El motivo por el cual SVC es el más lento es debido a su política de clasificación multiclase (one vs all) en la cual se ve obligado a aplicar el algoritmo 10 veces y escoger la clase que más se aproxime.
 
 A continuación compararemos el tiempo que tardan con su tasa de acierto, con el objetivo de poder comparar para un limite de tiempo dado cual es mejor:
 
@@ -369,8 +363,8 @@ A continuación compararemos el tiempo que tardan con su tasa de acierto, con el
 Finalmente compararemos solamente el tiempo de clasificación sin contar el tiempo de construir el clasificador.
 
 \subsection{Conclusiones}
-A la vista de los resultados obtenidos, dependiendo de nuestras necesidades, elegiremos distintos modelos. Si nuestra prioridad es la correcta clasificación de los datos y no tenemos
-una cantidad de tiempo limitada usaremos SVC, sin embargo, si necesitamos una rápida clasificación usaremos Random Forest. También es relevante dónde se aprecian los errores en la clasificación. Por ejemplo, los clasificadores suelen confundir las jotas con las ies.
+A la vista de los resultados obtenidos, dependiendo de nuestras necesidades, elegiremos distintos modelos. Si nuestra prioridad es la correcta clasificación de los datos y tenemos
+una cantidad de tiempo ilimitada usaremos SVC pero, como hemos visto, es vulnearable cuando interpolamos la imagen para hacerla más grande por ello solo se debe aplicar en este problema an un numero de atributos entre 400 y 5000. Por otro, lado Random Forest es robusto a cambios en el espacio de atributos y alcanza una tasa de acierto bastante buena por ello es un buen candidato a la hora de resolver este problema. 
 
 \subsection{Referencias}
 Scikit-learn

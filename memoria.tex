@@ -85,7 +85,7 @@ Esto lo realizaremos mediante la selección de un umbral, con el cual considerar
 
 Con el fin de evitar el aliasing (meter bordes que no existian al reducir una imágen) hemos redimensionado la imágen siempre aplicando un kernel gausiano previamente.
 
-A continuacion mostraremos distintos valores de los tamaños de las imágenes que compararemos en nuestro estudio:
+A continuacion mostraremos distintos valores de los tamaños de las imágenes que compararemos en nuestro estudio en las que hemos usado la tecnica del padding contiguo siempre que necesitaramos aumentar el tamaño de la imagen:
 
 \begin{figure}[htbp]
    \centering
@@ -365,6 +365,15 @@ A continuación compararemos el tiempo que tardan con su tasa de acierto, con el
 
 
 Finalmente compararemos solamente el tiempo de clasificación sin contar el tiempo de construir el clasificador.
+
+\begin{figure}[htbp]
+\centering
+    \includegraphics[scale=0.5]{./TiemposSoloClasificacion.png}
+    \caption{Tiempos solo clasificación}
+\end{figure}
+
+En el caso en el que dispongamos de tiempo SVC es mejor que KNN siempre que no interpolemos las imágenes en exceso
+
 
 \subsection{Conclusiones}
 A la vista de los resultados obtenidos, dependiendo de nuestras necesidades, elegiremos distintos modelos. Si nuestra prioridad es la correcta clasificación de los datos y tenemos

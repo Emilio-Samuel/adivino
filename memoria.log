@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  8 JAN 2019 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  8 JAN 2019 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,7 +746,7 @@ Overfull \hbox (9.73924pt too wide) in paragraph at lines 43--45
  pri-me-ras le-tras del alfabeto(A-
  []
 
-<./sin_procesar/l00000_A.png, id=52, 150.5625pt x 206.7725pt>
+<./sin_procesar/l00000_A.png, id=48, 150.5625pt x 206.7725pt>
 File: ./sin_procesar/l00000_A.png Graphic file (type png)
 <use ./sin_procesar/l00000_A.png>
 Package pdftex.def Info: ./sin_procesar/l00000_A.png  used on input line 49.
@@ -763,7 +763,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 57.
-<./procesado/l00000_A.png, id=53, 150.5625pt x 206.7725pt>
+<./procesado/l00000_A.png, id=49, 150.5625pt x 206.7725pt>
 File: ./procesado/l00000_A.png Graphic file (type png)
 <use ./procesado/l00000_A.png>
 Package pdftex.def Info: ./procesado/l00000_A.png  used on input line 63.
@@ -808,12 +808,12 @@ Package babel Info: Redefining spanish shorthand "?
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./sin_procesar/l00000_A.pn
 g (PNG copy)>]
-<./Arecortada.png, id=65, 462.528pt x 346.896pt>
+<./Arecortada.png, id=61, 462.528pt x 346.896pt>
 File: ./Arecortada.png Graphic file (type png)
 <use ./Arecortada.png>
 Package pdftex.def Info: ./Arecortada.png  used on input line 80.
 (pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<./A_Variando_Tam.png, id=67, 462.528pt x 346.896pt>
+<./A_Variando_Tam.png, id=63, 462.528pt x 346.896pt>
 File: ./A_Variando_Tam.png Graphic file (type png)
 <use ./A_Variando_Tam.png>
 Package pdftex.def Info: ./A_Variando_Tam.png  used on input line 92.
@@ -873,7 +873,7 @@ Overfull \hbox (53.89679pt too wide) detected at line 162
 \OML/cmm/m/it/10 M \OT1/cmr/m/n/10 = []
  []
 
-<./RandomForest_9_4.png, id=80, 1322.9425pt x 790.955pt>
+<./RandomForest_9_4.png, id=76, 1322.9425pt x 790.955pt>
 File: ./RandomForest_9_4.png Graphic file (type png)
 <use ./RandomForest_9_4.png>
 Package pdftex.def Info: ./RandomForest_9_4.png  used on input line 170.
@@ -923,7 +923,7 @@ Overfull \hbox (53.89679pt too wide) detected at line 226
 \OML/cmm/m/it/10 M \OT1/cmr/m/n/10 = []
  []
 
-<./SVC100_50.png, id=94, 1330.9725pt x 805.0075pt>
+<./SVC100_50.png, id=90, 1330.9725pt x 805.0075pt>
 File: ./SVC100_50.png Graphic file (type png)
 <use ./SVC100_50.png>
 Package pdftex.def Info: ./SVC100_50.png  used on input line 235.
@@ -966,228 +966,219 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 243.
 
-Overfull \hbox (53.89679pt too wide) detected at line 296
+Overfull \hbox (53.89679pt too wide) detected at line 297
 \OML/cmm/m/it/10 M \OT1/cmr/m/n/10 = []
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 [5 <./SVC100_50.png>]
-<./KNN_Ejemplos.png, id=114, 1322.9425pt x 790.955pt>
+<./KNN_Ejemplos.png, id=110, 1322.9425pt x 790.955pt>
 File: ./KNN_Ejemplos.png Graphic file (type png)
 <use ./KNN_Ejemplos.png>
-Package pdftex.def Info: ./KNN_Ejemplos.png  used on input line 306.
+Package pdftex.def Info: ./KNN_Ejemplos.png  used on input line 307.
 (pdftex.def)             Requested size: 198.43282pt x 118.63812pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 313.
+(babel)             in language  on input line 314.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 313.
+(babel)             in language  on input line 314.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 313.
+(babel)             in language  on input line 314.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 313.
+(babel)             in language  on input line 314.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 313.
+(babel)             in language  on input line 314.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 313.
-<./CompararAciertos.png, id=115, 462.528pt x 346.896pt>
+(babel)             in language  on input line 314.
+<./CompararAciertos.png, id=111, 462.528pt x 346.896pt>
 File: ./CompararAciertos.png Graphic file (type png)
 <use ./CompararAciertos.png>
-Package pdftex.def Info: ./CompararAciertos.png  used on input line 320.
+Package pdftex.def Info: ./CompararAciertos.png  used on input line 321.
 (pdftex.def)             Requested size: 138.84993pt x 104.13841pt.
-<./AciertosFinal.png, id=116, 462.528pt x 346.896pt>
+<./AciertosFinal.png, id=112, 462.528pt x 346.896pt>
 File: ./AciertosFinal.png Graphic file (type png)
 <use ./AciertosFinal.png>
-Package pdftex.def Info: ./AciertosFinal.png  used on input line 326.
+Package pdftex.def Info: ./AciertosFinal.png  used on input line 327.
 (pdftex.def)             Requested size: 138.84993pt x 104.13841pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 347.
  [6 <./KNN_Ejemplos.png> <./CompararAciertos.png> <./AciertosFinal.png>]
-<./CompararTiempos.png, id=127, 462.528pt x 346.896pt>
+<./CompararTiempos.png, id=123, 462.528pt x 346.896pt>
 File: ./CompararTiempos.png Graphic file (type png)
 <use ./CompararTiempos.png>
-Package pdftex.def Info: ./CompararTiempos.png  used on input line 354.
+Package pdftex.def Info: ./CompararTiempos.png  used on input line 355.
 (pdftex.def)             Requested size: 173.56177pt x 130.17036pt.
-<./CompararAciertosvsTiempos.png, id=128, 462.528pt x 346.896pt>
+<./CompararAciertosvsTiempos.png, id=124, 462.528pt x 346.896pt>
 File: ./CompararAciertosvsTiempos.png Graphic file (type png)
 <use ./CompararAciertosvsTiempos.png>
 Package pdftex.def Info: ./CompararAciertosvsTiempos.png  used on input line 36
-0.
+1.
 (pdftex.def)             Requested size: 173.56177pt x 130.17036pt.
-<./TiemposSoloClasificacion.png, id=129, 462.528pt x 346.896pt>
+<./TiemposSoloClasificacion.png, id=125, 462.528pt x 346.896pt>
 File: ./TiemposSoloClasificacion.png Graphic file (type png)
 <use ./TiemposSoloClasificacion.png>
-Package pdftex.def Info: ./TiemposSoloClasificacion.png  used on input line 371
+Package pdftex.def Info: ./TiemposSoloClasificacion.png  used on input line 372
 .
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 379.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 379.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 379.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 379.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 379.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 379.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 383.
  [7 <./CompararTiempos.png> <./CompararAciertosvsTiempos.png> <./TiemposSoloCla
 sificacion.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 403.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 402.
+(babel)             in language  on input line 403.
  [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 402.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 403.
  (./memoria.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 402.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 402.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 403.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 403.
+Package rerunfilecheck Info: File `memoria.out' has not changed.
+(rerunfilecheck)             Checksum: 2EC686B2CFDF91DBA78C3FFC7BB18DFA;730.
 
-
-Package rerunfilecheck Warning: File `memoria.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `memoria.out':
-(rerunfilecheck)             Before: 451A5E97E3D59D2499B5BFE122E3E628;777
-(rerunfilecheck)             After:  2EC686B2CFDF91DBA78C3FFC7BB18DFA;730.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 402.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 403.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 8 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8439 strings out of 492982
- 122696 string characters out of 6134895
+ 8437 strings out of 492982
+ 122676 string characters out of 6134895
  231946 words of memory out of 5000000
- 11842 multiletter control sequences out of 15000+600000
+ 11841 multiletter control sequences out of 15000+600000
  10305 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,39p,540b,6836s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.4} has been referenced but 
-does not exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmti10.pfb>
-Output written on memoria.pdf (8 pages, 374848 bytes).
+ 36i,11n,39p,540b,6835s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on memoria.pdf (8 pages, 374802 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

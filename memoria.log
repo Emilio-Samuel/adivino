@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.4)  7 JAN 2019 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  8 JAN 2019 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,83 +1089,77 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 378.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 381.
+(babel)             in language  on input line 382.
  [7 <./CompararTiempos.png> <./CompararAciertosvsTiempos.png> <./TiemposSoloCla
 sificacion.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 382.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 402.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 404.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 404.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 404.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 404.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 404.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 404.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 402.
  [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 402.
  (./memoria.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
-Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 451A5E97E3D59D2499B5BFE122E3E628;777.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 402.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 402.
 
+
+Package rerunfilecheck Warning: File `memoria.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `memoria.out':
+(rerunfilecheck)             Before: 451A5E97E3D59D2499B5BFE122E3E628;777
+(rerunfilecheck)             After:  2EC686B2CFDF91DBA78C3FFC7BB18DFA;730.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 404.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 402.
  )
 (\end occurred inside a group at level 1)
 
@@ -1173,21 +1167,24 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 404.
 ### bottom level 
 Here is how much of TeX's memory you used:
  8439 strings out of 492982
- 122696 string characters out of 6134897
- 231944 words of memory out of 5000000
+ 122696 string characters out of 6134895
+ 231946 words of memory out of 5000000
  11842 multiletter control sequences out of 15000+600000
  10305 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,39p,509b,6836s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on memoria.pdf (8 pages, 375120 bytes).
+ 36i,11n,39p,540b,6836s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section.4} has been referenced but 
+does not exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb>
+Output written on memoria.pdf (8 pages, 374848 bytes).
 PDF statistics:
  197 PDF objects out of 1000 (max. 8388607)
  155 compressed objects within 2 object streams

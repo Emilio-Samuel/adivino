@@ -372,14 +372,12 @@ Finalmente compararemos solamente el tiempo de clasificación sin contar el tiem
     \caption{Tiempos solo clasificación}
 \end{figure}
 
-En el caso en el que dispongamos de tiempo SVC es mejor que KNN siempre que no interpolemos las imágenes en exceso
+En el caso en el que dispongamos del tiempo para construir el clasificador SVC es mejor que KNN siempre que no incluyamos ruido excesivo.
 
 
 \subsection{Conclusiones}
-A la vista de los resultados obtenidos, dependiendo de nuestras necesidades, elegiremos distintos modelos. Si nuestra prioridad es la correcta clasificación de los datos y tenemos
-una cantidad de tiempo ilimitada usaremos SVC pero, como hemos visto, es vulnearable cuando interpolamos la imagen para hacerla más grande por ello solo se debe aplicar en este problema an un numero de atributos entre 400 y 5000. Por otro, lado Random Forest es robusto a cambios en el espacio de atributos y alcanza una tasa de acierto bastante buena por ello es un buen candidato a la hora de resolver este problema. 
+A la vista de los resultados obtenidos, dependiendo de nuestras necesidades, elegiremos distintos modelos. Si nuestra prioridad es la correcta clasificación de los datos y el tiempo de train no es crítico, es recomendable usar SVC. Sin embargo, como hemos visto, es menos robusto que los otros dos clasificadores si el ruido es excesivo. Por otro, lado Random Forest es muy robusto a ruido en el  espacio de atributos. Si el tiempo es un factor crítico del problema entonces random forest sería la mejor opción.
 
-\section{Referencias}
 
 \begin{thebibliography}{99}
 
